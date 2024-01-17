@@ -1,0 +1,142 @@
+
+
+header {
+    background-color: rgb(83, 201, 201);
+    width: auto;
+    height: 70px auto;
+    display: flex;
+    border-radius: 10px;
+    }
+.marumath {
+    text-align:center;
+    margin: 0 auto;
+    padding: 16px;;
+
+}
+
+
+nav {
+    display: flex;
+    background-color: rgb(147, 196, 179);
+    text-decoration-color: antiquewhite;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+p {
+    align-items: center;
+}
+
+main{
+    background-image: url(https://images.unsplash.com/photo-1498590880827-3f79fdcd7fbe?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+body {
+    font-family: Arial, sans-serif;
+  }
+input {
+    outline: auto;
+    border-radius: 5px;
+}
+
+.hasil-hitung {
+justify-content: center;
+border-radius: 6px;
+border: solid;
+border-width: 2px;
+padding-left: 40px;
+
+}
+
+.container  {
+    background-color: antiquewhite;
+    margin-top: 10;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 75%;
+    padding: 20px;
+    margin: auto;
+    
+}
+
+
+.h1-table{
+    text-align: center;
+}
+
+
+.table-full-persegi {display: flex;
+justify-content: space-around;
+}
+
+.foto-persegi{
+    padding: 50%;
+    
+}
+.a {
+    padding-top: 50px
+} 
+.b {;
+    padding-top: 50px
+
+}
+
+.c {
+    padding-bottom: 50px
+} 
+.d {
+    padding-bottom: 50px
+
+}
+    
+
+
+form{
+    border: solid;
+    border-radius: 6px;
+    background-color: aquamarine;
+    padding: 10px;
+    ;
+}
+
+
+
+.button-apply{
+    display: flex;
+    justify-content: center;
+    background-color: #4CAF50;
+    border-radius: 4px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.number{
+width: 400px;
+height: 25px;  
+}
+
+.containermini {
+    margin-top: 10px;
+    margin-left: 50%;
+   
+}
+
+footer {
+    background-image: url(https://img.freepik.com/free-vector/christmas-banner-with-stars-design_1048-17557.jpg?w=1800&t=st=1705172576~exp=1705173176~hmac=a2def66f630b9cf3f80ca29989d97b88d5ecd09b343f02195129cef5a28e3be0);
+    width: auto;
+    height: 100px;
+}
+.kontak {
+    font-size: 12px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    
+}
+   
