@@ -1,9 +1,21 @@
-function calculate() {
-    var sisi = parseFloat(document.getElementById('sisi').value);
+function handleKeyDown(event) {
+    if (event.key === 'Enter') {
+        event.preventDefault(); // Prevent the default form submission
+        calculate();    }
+    }
+    
 
-    if (!isNaN(sideLength)) {
-        var area = sisi * sisi;
-        var perimeter = 4 *sisi;
+function clearInput() {
+    document.getElementById('Sisi').value = '';
+    document.getElementById('areaResult').innerText = 'Luas: ';
+    document.getElementById('perimeterResult').innerText = 'Keliling: ';
+}
+function calculate() {
+    var Sisi = parseFloat(document.getElementById('Sisi').value);
+
+    if (!isNaN(Sisi)) {
+        var area = Sisi * Sisi;
+        var perimeter = 4 *Sisi;
 
         document.getElementById('areaResult').innerText = 'Luas: ' + area.toFixed(2);
         document.getElementById('perimeterResult').innerText = 'Keliling: ' + perimeter.toFixed(2);
