@@ -170,12 +170,16 @@ label {
 }
 
 footer {
-    background-image: 
-    url(https://cdn.pixabay.com/photo/2015/08/08/11/00/banner-880294_1280.jpg);
+    background-color: rgb(83, 201, 201);
     width: auto;
     height: 100px;
+    display: flex;
+    justify-content: center;
 }
+
+
 .kontak {
+    padding:20px;
     font-size: 12px;
     margin-left: 5px;
     margin-bottom: 10px;
@@ -183,6 +187,7 @@ footer {
     
 }
 .github {
+    padding: 20px;
     font-size: 12px;
     margin-left: 5px;
     margin-bottom: 10px;
